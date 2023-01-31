@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img
-                    src="/images/coletechstore-low-resolution-logo-color-on-transparent-background.png"
+                    src={{ asset('/images/coletechstore-low-resolution-logo-color-on-transparent-background.png') }}
                     alt="ColetechStore" width="250" height="80" class="d-inline-block align-text-top" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -37,27 +37,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">News</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Categories
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Smartphone</a></li>
-                            <li><a class="dropdown-item" href="#">Computer</a></li>
-                            <li><a class="dropdown-item" href="#">Clothes</a></li>
-                            <li><a class="dropdown-item" href="#">Drones</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/products">Products</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            User
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Shopping Cart</a></li>
-                            <li><a class="dropdown-item" href="#">Upload</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/products/upload">Upload</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">About</a>

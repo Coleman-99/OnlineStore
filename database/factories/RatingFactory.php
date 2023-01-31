@@ -18,7 +18,7 @@ class RatingFactory extends Factory
     public function definition()
     {
         return [
-            'product_id' =>  fake()->numberBetween($min = 1000, $max = 9000),
+            'product_id' =>  fake()->numberBetween($min = 0, $max = 20),
             'one' => fake()->numberBetween($min = 0, $max = 100),
             'two' => fake()->numberBetween($min = 0, $max = 100),
             'three' => fake()->numberBetween($min = 0, $max = 100),
